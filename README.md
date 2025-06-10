@@ -71,8 +71,8 @@ The BLIP model is quite large and should not be committed to Git. You need to do
 Create a folder for the model:
 Inside your cloned repository, navigate into the captioning-service directory:
 
-Bash
-```
+
+```bash
 cd captioning-service
 mkdir blip_model
 cd .. # Go back to the root of the project
@@ -85,8 +85,8 @@ You need to download the "Salesforce/blip-image-captioning-base" model files fro
 Option A: Using Python (Recommended)
 Create a temporary Python script (e.g., download_model.py) in the captioning-service directory with the following content:
 
-Python
-```
+
+```python
 # download_model.py
 from transformers import AutoProcessor, AutoModelForSeq2SeqLM
 import os
@@ -111,8 +111,8 @@ print("BLIP model and processor downloaded successfully!")
 ```
 Then, run this script from inside the captioning-service folder:
 
-Bash
-```
+
+```bash
 cd captioning-service
 pip install transformers torch
 python download_model.py
@@ -126,8 +126,8 @@ Navigate to the Salesforce/blip-image-captioning-base page on Hugging Face. You 
 3. Build and Run with Docker Compose
 From the root directory of your project (where docker-compose.yml is located), execute the following command:
 
-Bash
-```
+
+```bash
 docker-compose up --build
 docker-compose up: Starts all services defined in docker-compose.yml.
 ```
@@ -148,13 +148,13 @@ Troubleshooting
 "Connection refused" or "Internal Server Error" on the web page:
 Ensure all Docker containers are running (docker ps).
 Check the logs of the captioning-service for startup errors:
-Bash
-```
+
+```bash
 docker logs -f imagecaptioning-captioning-service-1
 ```
 Check the logs of the image-captioning-app for communication errors:
-Bash
-```
+
+```bash
 docker logs -f imagecaptioning-image-captioning-app-1
 ```
 "No conditional caption generated." / "No unconditional caption generated." on the web page:
