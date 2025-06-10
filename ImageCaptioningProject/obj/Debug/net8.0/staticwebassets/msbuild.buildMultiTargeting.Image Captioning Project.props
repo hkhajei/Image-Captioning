@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Image Captioning Project.props" />
+</Project>

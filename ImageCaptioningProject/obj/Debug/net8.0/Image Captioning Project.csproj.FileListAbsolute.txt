@@ -1,0 +1,37 @@
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\obj\Debug\net8.0\Image Captioning Project.csproj.AssemblyReference.cache
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\obj\Debug\net8.0\Image Captioning Project.GeneratedMSBuildEditorConfig.editorconfig
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\obj\Debug\net8.0\Image Captioning Project.AssemblyInfoInputs.cache
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\obj\Debug\net8.0\Image Captioning Project.AssemblyInfo.cs
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\obj\Debug\net8.0\Image Captioning Project.csproj.CoreCompileInputs.cache
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\obj\Debug\net8.0\Image Captioning Project.MvcApplicationPartsAssemblyInfo.cs
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\obj\Debug\net8.0\Image Captioning Project.MvcApplicationPartsAssemblyInfo.cache
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\obj\Debug\net8.0\Image Captioning Project.RazorAssemblyInfo.cache
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\obj\Debug\net8.0\Image Captioning Project.RazorAssemblyInfo.cs
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\bin\Debug\net8.0\appsettings.Development.json
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\bin\Debug\net8.0\appsettings.json
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\bin\Debug\net8.0\Image Captioning Project.staticwebassets.runtime.json
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\bin\Debug\net8.0\Image Captioning Project.exe
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\bin\Debug\net8.0\Image Captioning Project.deps.json
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\bin\Debug\net8.0\Image Captioning Project.runtimeconfig.json
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\bin\Debug\net8.0\Image Captioning Project.dll
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\bin\Debug\net8.0\Image Captioning Project.pdb
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\obj\Debug\net8.0\staticwebassets.build.json
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\obj\Debug\net8.0\staticwebassets.development.json
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\obj\Debug\net8.0\staticwebassets\msbuild.Image Captioning Project.Microsoft.AspNetCore.StaticWebAssets.props
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\obj\Debug\net8.0\staticwebassets\msbuild.build.Image Captioning Project.props
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Image Captioning Project.props
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Image Captioning Project.props
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\obj\Debug\net8.0\staticwebassets.pack.json
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\obj\Debug\net8.0\scopedcss\bundle\Image Captioning Project.styles.css
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\obj\Debug\net8.0\scopedcss\projectbundle\Image Captioning Project.bundle.scp.css
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\obj\Debug\net8.0\Image Ca.DABEE21A.Up2Date
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\obj\Debug\net8.0\Image Captioning Project.dll
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\obj\Debug\net8.0\refint\Image Captioning Project.dll
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\obj\Debug\net8.0\Image Captioning Project.pdb
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\obj\Debug\net8.0\Image Captioning Project.genruntimeconfig.cache
+D:\My GitHub\hkhajei\Image Captioning\ImageCaptioningProject\obj\Debug\net8.0\ref\Image Captioning Project.dll

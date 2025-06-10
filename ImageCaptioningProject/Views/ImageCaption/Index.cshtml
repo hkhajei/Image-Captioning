@@ -1,0 +1,60 @@
+﻿@{
+    @model ImageCaptionViewModel
+    ViewData["Title"] = "Image Captioning";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Image Captioning</h1>
+    <p>Upload an image to get AI-generated captions!</p>
+</div>
+
+<div class="row">
+    @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+    {
+        <div class="alert alert-danger" role="alert">
+            <strong>Error:</strong> @Model.ErrorMessage
+        </div>
+    }
+    <div class="col-lg-6 col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h4>Upload Form</h4>
+            </div>
+            <div class="card-body">
+
+                <form asp-controller="ImageCaption" asp-action="DescribeImage" method="post" enctype="multipart/form-data">
+                    <div class="mb-3">
+                        <label for="imageFile" class="form-label">Select Image</label>
+                        <input type="file" class="form-control" id="imageFile" name="file" accept="image/*" required>
+                        <div class="form-text">Accepted formats: JPG, PNG, GIF</div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Generate Caption</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-6 col-md-6">
+
+        @if (Model.Captions != null)
+        {
+            <div class="card">
+                <div class="card-header">
+                    <h4>Generated Captions</h4>
+                </div>
+                <div class="card-body">
+                    @if (!string.IsNullOrEmpty(Model.ImageBase64))
+                    {
+                        <div class="mb-3">
+                            <h6>Uploaded Image:</h6>
+                            <img src="data:image;base64,@Model.ImageBase64" class="img-fluid rounded" alt="Uploaded Image" style="max-height: 200px; object-fit: contain;" />
+                        </div>
+                    }
+
+                    <p><strong>Conditional Caption:</strong> @(Model.Captions.CaptionConditional ?? "No conditional caption generated.")</p>
+                    <p><strong>Unconditional Caption:</strong> @(Model.Captions.CaptionUnconditional ?? "No unconditional caption generated.")</p>
+                </div>
+            </div>
+        }
+    </div>
+</div>

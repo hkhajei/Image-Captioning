@@ -1,0 +1,21 @@
+services:
+  image-captioning-app: # Your ASP.NET Core service name
+    build:
+      context: ./ImageCaptioningProject # Adjust this path to your ASP.NET project folder
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80" # Example port mapping (Host:Container)
+    depends_on:
+      - captioning-service # Ensure it starts after the captioning service
+    environment:
+      ASPNETCORE_URLS: "http://+:80"
+      ASPNETCORE_ENVIRONMENT: "Development" # <--- ADD THIS LINE
+      # --- IMPORTANT for Docker Compose: ---
+      CAPTIONING_SERVICE_URL: "http://captioning-service:8000" # Internal Docker network address
+      # This overrides appsettings.json when running in Docker
+  
+  captioning-service:
+    build: ./captioning-service # Path to your FastAPI Dockerfile
+    ports:
+      - "8000:8000"
+    # ... other configurations for captioning-serviceS

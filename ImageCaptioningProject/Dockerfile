@@ -1,0 +1,25 @@
+# Use the SDK image to build the application
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /src
+
+# Copy the project file and restore dependencies
+COPY ["ImageCaptioningProject.csproj", "./"] 
+# Adjust this to your project's .csproj name
+RUN dotnet restore
+
+# Copy the remaining source code and publish
+COPY . .
+WORKDIR "/src/."
+RUN dotnet publish -c Release -o /app/publish
+
+# Use the ASP.NET runtime image to run the application
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
+WORKDIR /app
+COPY --from=build /app/publish .
+
+# Expose the port your application listens on inside the container
+EXPOSE 80
+
+# Define the entry point for the container
+ENTRYPOINT ["dotnet", "ImageCaptioningProject.dll"] 
+# Adjust this to your project's .dll name
