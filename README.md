@@ -150,7 +150,7 @@ Contributions are welcome\! If you find a bug, have an idea for an improvement, 
 
 ## License
 
-This project is licensed under the [MIT License](https://www.google.com/search?q=LICENSE). *(It's a good practice to create a `LICENSE` file in your repository if you don't have one, detailing the terms of use.)*
+This project is licensed under the [MIT License](https://www.google.com/search?q=LICENSE). 
 
 -----
 
