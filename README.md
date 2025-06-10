@@ -56,8 +56,8 @@ Follow these steps to get the project up and running on your local machine.
 First, clone this GitHub repository to your local machine:
 
 ```bash
-git clone https://github.com/hkhajei/Image-Captioning-Project.git # Replace with your actual repo URL
-cd Image-Captioning-Project # Replace with your actual repository name
+git clone https://github.com/hkhajei/Image-Captioning.git 
+cd Image-Captioning 
 ```
 
 ### 2\. Download BLIP Model Files
